@@ -2,8 +2,35 @@
  * YOUR CODE BELOW! *
  ********************/
 
+const moreThan5 = function (num){
 
+return num > 5
+}
 
+const topScore = function (num1,num2){
+
+  return num1 > num2
+}
+
+const isInDanger = function(num){
+
+return 60 <= num && num  <= 71
+}
+
+const isCoasting = function(num){
+ return 72 <= num && num  <= 83
+
+}
+
+ const isSucceeding = function(num){
+  return 84 <= num && num  <= 92
+ }
+  const isFailing = function (num){
+
+return num < 60
+  }
+
+  const isAcing = function ()
 
 
 /********************************************************************************************
