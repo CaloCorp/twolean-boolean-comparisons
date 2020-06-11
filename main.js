@@ -50,7 +50,7 @@ return str === 'teacher'
 return str === 'admin'
   }
 
-  const isElementary = function (){
+  const isElementary = function (str){
 
     return str === 'elementary'
   }
@@ -62,9 +62,13 @@ return str === 'admin'
 
 const isMiddleSchoolTeacher = function (str,num){
 
-  return str === 'teacher' && num > 6 && num < 8
+  return str === 'teacher' && num >= 6 && num <= 8
 }
 
+const notAnElementarySchoolAdministrator = function (str1,str2){
+
+  return str1 !== 'elementary' || str2 !== 'admin' 
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
