@@ -30,7 +30,40 @@ const isCoasting = function(num){
 return num < 60
   }
 
-  const isAcing = function ()
+  const isAcing = function (num){
+
+    return num > 92 
+  }
+
+  const isStudent = function(str){
+
+return str === 'student'
+
+  }
+
+  const isTeacher = function (str){
+return str === 'teacher'
+  }
+
+  const isAdmin = function(str){
+
+return str === 'admin'
+  }
+
+  const isElementary = function (){
+
+    return str === 'elementary'
+  }
+
+  const areDifferentPeople = function (name1,name2){
+
+    return name1 !== name2
+  }
+
+const isMiddleSchoolTeacher = function (str,num){
+
+  return str === 'teacher' && num > 6 && num < 8
+}
 
 
 /********************************************************************************************
